@@ -24,22 +24,21 @@ h1, h2, h3 {
 }
 
 /* logo and home page navigation top left */
+#logo a:link {
+    text-decoration: none;
+}
+
+#logo a:hover {
+    color:#fafafa;
+    border-bottom: 2px solid #fafafa;
+}
+
 .logo-home {
     height: 40px;
     text-align: left;
     border-radius: 50%;
     margin-left: 10px;
 }
-
-#logo-home a:link {
-    text-decoration: none;
-}
-
-#logo-home a:hover {
-    color:#fafafa;
-    border-bottom: 2px solid #fafafa;
-}
-
 
 
 /* remove bullets from all list elements */
@@ -48,10 +47,13 @@ nav li {
 }
 
 /* styling for text navigation bar */
+#text-nav {
+    display: inline;
+}
+
 #text-nav a:link {
     text-decoration: none;
     color: #fafafa;
-    display: inline;
     margin: 10px;
     padding-bottom: 100px;
 }
@@ -94,7 +96,7 @@ nav li {
     overflow: hidden;
     /* animates zoom effect on loading page */
     animation-name: hero-zoom;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-fill-mode: forwards;
 }
 
@@ -118,7 +120,57 @@ nav li {
 /*    filter: #9500ff; */
 } */
 
+#visual-nav > div {
+    display: inline;
+}
 
+.pole-button {
+    height: 200px;
+    width: 200px;
+    background: url(../images/polebutton.png) no-repeat center center;
+    background-size: contain;
+    filter: brightness(0);
+    border: solid;
+    border-width: 5px;
+    border-color: #9500ff;
+    border-radius: 50%;
+}
+
+.hoop-button {
+    height: 200px;
+    width: 200px;
+    background: url(../images/hoopbutton.png) no-repeat center center;
+    background-size: contain;
+    filter: brightness(0);
+    border: solid;
+    border-width: 5px;
+    border-color: #9500ff;
+    border-radius: 50%;
+}
+
+.silks-button {
+    height: 200px;
+    width: 200px;
+    background: url(../images/silksbutton.png) no-repeat center center;
+    background-size: contain;
+    filter: brightness(0);
+    border: solid;
+    border-width: 5px;
+    border-color: #9500ff;
+    border-radius: 50%;
+}
+
+.floor-button {
+    height: 200px;
+    width: 200px;
+    background: url(../images/yogabutton.png) no-repeat center center;
+    background-size: contain;
+    filter: brightness(0);
+    border: solid;
+    border-width: 5px;
+    border-color: #9500ff;
+    border-radius: 50%;
+}
 
 /* footer styling */
 
