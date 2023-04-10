@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -117,6 +118,12 @@ nav li {
     padding: 20px;
     display: inline;
     background-color: #9500ff;
+}
+
+.four-box-line {
+    float: left;
+    width: 25%;
+    padding: 5%;
 }
 
 .pole-button {
@@ -255,4 +262,40 @@ footer {
     bottom: 30px;
     left: 300px;
     position: absolute;
+}
+
+/* creating space for the video reels */
+.box-wrapper {
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+/* .video-link-boxes {
+    float: left;
+    width: 33%;
+    padding: 50px;
+} */
+
+#beginner-box {
+    padding: 10px;
+    float: left;
+    width: 25%;
+    height: 400px;
+    background-color: #fafafa;
+}
+
+.intermediate-box {
+    padding: 10px;
+    
+    background-color: #e7d0fa;
+}
+
+.advanced-box {
+    padding: 10px;
+    float: right;
+    width: 25%;
+    height: 400px;
+    background-color: #9500ff;
 }
