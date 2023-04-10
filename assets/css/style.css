@@ -2,6 +2,12 @@
 
 /* general text and background rules for site */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
@@ -15,6 +21,42 @@ h1, h2, h3 {
     font-weight: 400;
     color: #9500ff;
     text-decoration: none;
+}
+
+/* logo and home page navigation top left */
+.logo-home {
+    height: 40px;
+    text-align: left;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+#logo-home a:link {
+    text-decoration: none;
+}
+
+#logo-home a:hover {
+    color:#fafafa;
+    border-bottom: 2px solid #fafafa;
+}
+
+/* remove bullets from all list elements */
+nav li {
+    list-style-type: none;
+}
+
+/* styling for text navigation bar */
+#text-nav a:link {
+    text-decoration: none;
+    color: #fafafa;
+    display: inline;
+    margin: 10px;
+}
+
+#text-nav a:hover {
+    text-decoration: underline;
+    color: #fafafa;
+    font-weight: 400;
 }
 
 /* hero image */
@@ -44,43 +86,17 @@ h1, h2, h3 {
     }
 }
 
-/* logo and home page navigation top left */
-.logo-home {
-    height: 40px;
-    text-align: left;
-    border-radius: 50%;
-    margin-left: 10px;
-}
-
-.logo-home > a:link {
-    text-decoration: none;
-}
-
-.logo-home > a:hover {
-    color:#fafafa;
-    text-decoration: underline;
-}
-
-/* remove bullets from all list elements */
-nav li {
-    list-style-type: none;
-}
-
-/* styling for text navigation bar */
-.text-nav > a:link {
-    text-decoration: none;
-    color: #fafafa;
-    display: inline;
-    margin: 10px;
-}
-
-.nav-element {
-    margin: 10px;
+/* styling for the visual image buttons */
+/*.visual-nav > img {
+    margin: 5%;
+    padding: 10%;
     height: 30px;
     width: 30px;
-    border-radius: 50%
-    filter: #9500ff;
+    border-radius: 50% */
+/*    filter: #9500ff; */
 }
+
+
 
 /* footer styling */
 
@@ -101,4 +117,9 @@ footer {
     margin: 1%;
     padding: 5%;
     color: #fafafa;
+}
+
+.social-networks > a:hover {
+    color: #9500ff;
+    font-size: 110%;
 }
