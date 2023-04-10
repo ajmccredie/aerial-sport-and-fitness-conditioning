@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand&display=swap');
 
+/* general text and background rules for site */
+
 body {
     font-family: Quicksand, sans-serif;
     font-weight: 300;
@@ -12,8 +14,10 @@ h1, h2, h3 {
     font-family: Oswald, sans-serif;
     font-weight: 400;
     color: #9500ff;
+    text-decoration: none;
 }
 
+/* hero image */
 #hero-image {
     width: 100%;
     height: 600px;
@@ -40,26 +44,61 @@ h1, h2, h3 {
     }
 }
 
-
+/* logo and home page navigation top left */
 .logo-home {
-    width: 40px;
-    float: left;
+    height: 40px;
+    text-align: left;
     border-radius: 50%;
+    margin-left: 10px;
 }
 
-nav a {
+.logo-home > a:link {
     text-decoration: none;
-    color: #fafafa;
 }
 
+.logo-home > a:hover {
+    color:#fafafa;
+    text-decoration: underline;
+}
+
+/* remove bullets from all list elements */
 nav li {
     list-style-type: none;
 }
 
-#nav-element {
+/* styling for text navigation bar */
+.text-nav > a:link {
+    text-decoration: none;
+    color: #fafafa;
+    display: inline;
     margin: 10px;
-    height: 5em;
-    width: 5em;
+}
+
+.nav-element {
+    margin: 10px;
+    height: 30px;
+    width: 30px;
     border-radius: 50%
     filter: #9500ff;
+}
+
+/* footer styling */
+
+footer {
+    height: 150px;   
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    margin: 1%;
+    padding: 5%;
+    color: #fafafa;
 }

@@ -10,19 +10,15 @@
     <title>Aerial Sport and Fitness Conditioning</title>
 </head>
 <body>
-    <header>
+    <header class="logo-home">
         <a href="index.html">
                 <h1><img src="assets/images/asf-logo.png" class="logo-home">Aerial Sport and Fitness</h1>
         </a>
     </header>
     <section>
-        Main image
-        <img src="assets/images/silks-splits-photo.jpg" id="hero-image">
-    </section>
-    <section>
         <nav>
             Navigation elements
-            <ul>
+            <ul class="text-nav">
                 <li>
                     <a href="index.html" aria-label="Go to the home page">Home</a>
                 </li>
@@ -48,14 +44,25 @@
         </nav>
     </section>
     <section>
+        <div id="hero-image">
+            <img src="assets/images/silks-splits-photo.jpg">
+        </div>
+    </section>
+   
+    <section>
         <nav>
+        <div>
             Visual navigation elements
-            <ul>
+            <ul class="visual-nav">
                 <li>
-                    <a href="pole.html"  id="nav-element" aria-label="Go to pole conditioning videos and information">pole<img src="assets/images/polebutton.png"></a>
+                    <div>
+                        <a href="pole.html" aria-label="Go to pole conditioning videos and information">pole<img src="assets/images/polebutton.png"></a>
+                    </div>
                 </li>
                 <li>
-                    <a href="hoop.html"  id="nav-element" aria-label="Go to hoop conditioning videos and information">hoop<img src="assets/images/hoopbutton.png"></a>
+                    <div>
+                        <a href="hoop.html" aria-label="Go to hoop conditioning videos and information">hoop<img src="assets/images/hoopbutton.png"></a>
+                    </div>
                 </li>
                 <li>
                     <a href="silks.html" aria-label="Go to silks conditioning videos and information">silks<img src="assets/images/silksbutton.png"></a>
@@ -65,9 +72,20 @@
                 </li>
             </ul>
         </nav>
+    </div>
     </section>
     <footer>
-        social links here
+        <ul class="social-networks">
+            <li>
+                <a href="https://www.facebook.com/AerialSportandFitness/?locale=en_GB" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-square-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/aerialsportandfitness/?hl=en" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
 </body>
+
+<script src="https://kit.fontawesome.com/8c6dac4a35.js" crossorigin="anonymous"></script>
+
 </html>
