@@ -281,37 +281,26 @@ footer {
 }
 
 /* creating space for the video reels */
-.box-wrapper {
+#video-box-wrapper {
     height: 700px;
     width: 100%;
     text-align: center;
-    background-color: aquamarine;
+    display: flex;
+    background-color: rgb(255, 127, 242);
 }
-
-/* .video-link-boxes {
-    float: left;
-    width: 33%;
-    padding: 50px;
-} */
-
-#beginner-box {
-    padding: 10px;
-    float: left;
-    width: 25%;
-    height: 400px;
-    background-color: #fafafa;
-}
-
-.intermediate-box {
-    padding: 10px;
-    
-    background-color: #e7d0fa;
-}
-
-.advanced-box {
-    padding: 10px;
-    float: right;
-    width: 25%;
-    height: 400px;
+.scrollbox div {
+    width: 500px;
+    height: 500px;
+    padding:50px;
+    display: inline-block;
+    flex: 0 0 auto;
     background-color: #9500ff;
+    border: 5px solid aquamarine;
+    text-align: center;
+}
+
+.scrolling-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
 }
