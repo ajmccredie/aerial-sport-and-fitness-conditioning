@@ -347,6 +347,27 @@ footer {
     border-radius: 2px;
     filter: grayscale(0.85) brightness(0.6) drop-shadow(0 0 1px #000) blur(3px);
 }
+
+.silks-video {
+    background-color: #424242;
+    background: url(../images/silks-splits-photo.jpg) no-repeat center center;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2px;
+    filter: grayscale(0.85) brightness(0.6) drop-shadow(0 0 1px #000) blur(3px);
+}
+
+.floor-video {
+    background-color: #424242;
+    background: url(../images/yoga-photo.jpg) no-repeat center center;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2px;
+    filter: grayscale(0.85) brightness(0.6) drop-shadow(0 0 1px #000) blur(3px);
+}
+
 .scrollbox a:hover div {
     object-fit: cover;
     background-size: cover;
