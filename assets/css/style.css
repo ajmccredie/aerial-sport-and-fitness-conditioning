@@ -52,7 +52,7 @@ nav li {
 }
 
 /* styling for text navigation bar */
-#text-nav {
+#text-nav li {
     display: inline;
 }
 
@@ -97,6 +97,7 @@ nav li {
     background-size: cover;
     object-position: center;
     padding-top: 50px;
+    margin-top: -50px;
     margin-bottom: 50px;
     overflow: hidden;
     /* animates zoom effect on loading page */
@@ -120,6 +121,7 @@ nav li {
     width: 100%;
     padding-left: 5%;
     padding-right: 5%;
+    margin: 0 auto;
 }
 
 #visual-nav div {
@@ -177,7 +179,7 @@ nav li {
 }
 
 #visual-nav a:hover div {
-    filter: drop-shadow(0 4px 6px #000);
+    filter: drop-shadow(0 4px 8px #000);
     margin-top: -4px;
 }
 
