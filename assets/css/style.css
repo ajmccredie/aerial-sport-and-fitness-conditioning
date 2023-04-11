@@ -136,7 +136,7 @@ nav li {
     background-size: contain;
     background-color: #d6adf7;
     border: solid;
-    filter: brightness(0.8) drop-shadow(0 0 1px #000);
+    filter: brightness(0.7) drop-shadow(0 0 1px #000);
     border-width: 5px;
     border-radius: 50%;
     border-color: #9500ff;
@@ -147,7 +147,7 @@ nav li {
     background-size: contain;
     background-color: #d6adf7;
     border: solid;
-    filter: brightness(0.8) drop-shadow(0 0 1px #000);
+    filter: brightness(0.7) drop-shadow(0 0 1px #000);
     border-width: 5px;
     border-radius: 50%;
     border-color: #9500ff;
@@ -158,7 +158,7 @@ nav li {
     background-size: contain;
     background-color: #d6adf7;
     border: solid;
-    filter: brightness(0.8) drop-shadow(0 0 1px #000);
+    filter: brightness(0.7) drop-shadow(0 0 1px #000);
     border-width: 5px;
     border-radius: 50%;
     border-color: #9500ff;
@@ -169,15 +169,28 @@ nav li {
     background-size: contain;
     background-color: #d6adf7;
     border: solid;
-    filter: brightness(0.8) drop-shadow(0 0 1px #000);
+    filter: brightness(0.7) drop-shadow(0 0 1px #000);
     border-width: 5px;
     border-radius: 50%;
     border-color: #9500ff;
+    margin-right: 30px;
+}
+
+#visual-nav a:hover div {
+    filter: drop-shadow(0 4px 6px #000);
+    margin-top: -4px;
+}
+
+.active-visual div {
+    filter: drop-shadow(0 4px 6px #000);
 }
 
 /* footer styling */
 
 footer {
+    clear: left;
+    clear: right;
+    width: 100%;
     height: 150px;   
 }
 
