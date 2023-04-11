@@ -1,2 +1,6 @@
 # aerial-sport-and-fitness-conditioning
-A source of short conditioning videos targeted for improving aerial sport performance
+A source of short conditioning videos targeted for improving aerial sport performance. The website and mobile site are designed to be appealing to users who already use similar fitness apps and sites, but far easier to locate and navigate content than social media sites.
+Aerial Sport and Fitness is a real company, and all the videos and images are provided for use in site development (with the exception of the sunset-yoga image used for the 'general conditioning' page video link buttons.
+## Site features and navigation
+The site is laid out in a traditional manner with a text-based navigation bar at the top of the page. The pages this bar allows access to are 'Why' (reasons why conditioning is important), each discipline's own page ('Pole', 'Hoop', 'Silks' and 'General/Floor/Non-apparatus-specific'), and 'About' (details of the company behind the videos and external links that may be of interest to the user).
+Every page contains the site logo (which also works as a 'Home' button), social media links at the base (linked directly to Aerial Sport and Fitness Facebook and Instagram pages) and visual navigational link buttons for each of the disciplines. Each of these repeated links is animated for hover and active, allowing the user to navigate smoothly through the site.
