@@ -25,6 +25,11 @@ h1, h2, h3 {
 }
 
 /* logo and home page navigation top left */
+#logo {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
 #logo h1 {
     font-size: 2.5rem;
 }
@@ -45,6 +50,11 @@ h1, h2, h3 {
     margin-left: 10px;
 }
 
+#page-title {
+    font-size:2rem;
+    margin: 5px;
+    padding-left: 15px;
+}
 
 /* remove bullets from all list elements */
 nav li {
@@ -54,6 +64,7 @@ nav li {
 /* styling for text navigation bar */
 #text-nav li {
     display: inline;
+    text-align: center;
 }
 
 #text-nav a:link {
@@ -105,7 +116,6 @@ nav li {
     animation-duration: 10s;
     animation-fill-mode: forwards;
 }
-
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
     from{
@@ -282,32 +292,79 @@ footer {
 
 /* creating space for the video reels */
 #video-box-wrapper {
-    height: 700px;
+    height: 550px;
     width: 100%;
     text-align: left;
     font-size: x-large;
     background-color: #424242;
     border: 10px solid  rgb(66, 66, 66, 0.3);
+    padding-top: 20px;
+    padding-bottom: 20px;
     flex-wrap: nowrap;
     overflow-y: auto;
     scrollbar-color: #9500ff;
     scrollbar-width: 2px;
 }
+
 .scrollbox div {
-    width: 500px;
-    height: 500px;
-    padding:50px;
+    width: 250px;
+    height: 250px;
+    padding: 50px;
+    margin: 30px 50px 30px 50px;
     display: inline-block;
     flex: 0 0 auto;
-    background-color: #9500ff;
-    border: 5px solid aquamarine;
+    background-color: #424242;
+    border: 5px solid #d6adf7;
     text-align: center;
-    scrollbar-color: #9500ff;
-    scrollbar-width: 2px;
+}
+
+.scrollbox a {
+    text-decoration: none;
 }
 
 .scrolling-wrapper {
     display: flex;
     flex-wrap: nowrap;
     overflow-x: auto;
+}
+
+.pole-video {
+    background-color: #424242;
+    background: url(../images/pole-splits-photo.jpg) no-repeat center center;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2px;
+    filter: grayscale(0.85) brightness(0.6) drop-shadow(0 0 1px #000) blur(3px);
+}
+
+.hoop-video {
+    background-color: #424242;
+    background: url(../images/hoop-splits-photo.jpg) no-repeat center center;
+    object-fit: cover;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2px;
+    filter: grayscale(0.85) brightness(0.6) drop-shadow(0 0 1px #000) blur(3px);
+}
+.scrollbox a:hover div {
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 2px;
+    filter: grayscale(0.85) brightness(0.95) drop-shadow(0 0 5px #fafafa) blur(0);
+    overflow: hidden;
+    /* animates zoom effect on loading page */
+    animation-name: video-zoom;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+/* creates the level of zoom for hero image */
+@keyframes video-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.2);
+    }
 }
