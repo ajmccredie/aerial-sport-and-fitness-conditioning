@@ -25,19 +25,23 @@ h1, h2, h3 {
 }
 
 /* logo and home page navigation top left */
+#logo h1 {
+    font-size: 2.5rem;
+}
+
 #logo a:link {
     text-decoration: none;
 }
 
-#logo a:hover {
-    color:#fafafa;
-    border-bottom: 2px solid #fafafa;
+#logo h1:hover {
+    filter: drop-shadow(0 1px 1px #d6adf7)
 }
 
 .logo-home {
-    height: 40px;
+    height: 55px;
     text-align: left;
     border-radius: 50%;
+    margin-top: 4px;
     margin-left: 10px;
 }
 
@@ -112,66 +116,63 @@ nav li {
 }
 
 /* styling for the visual image buttons */
-
-#visual-nav > div {
-    margin: 10px;
-    padding: 20px;
-    display: inline;
-    background-color: #9500ff;
+#visual-nav {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
-.four-box-line {
+#visual-nav div {
+    margin: 10px; 
+    width: 22%; 
+    height: 250px;
+    display: inline;
     float: left;
-    width: 25%;
     padding: 5%;
 }
 
 .pole-button {
-    height: 200px;
-    width: 200px;
-    background: url(../images/polebutton.png) no-repeat center center;
+    background: url(../images/polebutton-purple.png) no-repeat center center;
     background-size: contain;
-    filter: brightness(0);
+    background-color: #d6adf7;
     border: solid;
+    filter: brightness(0.8) drop-shadow(0 0 1px #000);
     border-width: 5px;
-    border-color: #9500ff;
     border-radius: 50%;
+    border-color: #9500ff;
 }
 
 .hoop-button {
-    height: 200px;
-    width: 200px;
-    background: url(../images/hoopbutton.png) no-repeat center center;
+    background: url(../images/hoopbutton-purple.png) no-repeat center center;
     background-size: contain;
-    filter: brightness(0);
+    background-color: #d6adf7;
     border: solid;
+    filter: brightness(0.8) drop-shadow(0 0 1px #000);
     border-width: 5px;
-    border-color: #9500ff;
     border-radius: 50%;
+    border-color: #9500ff;
 }
 
 .silks-button {
-    height: 200px;
-    width: 200px;
-    background: url(../images/silksbutton.png) no-repeat center center;
+    background: url(../images/silksbutton-purple.png) no-repeat center center;
     background-size: contain;
-    filter: brightness(0);
+    background-color: #d6adf7;
     border: solid;
+    filter: brightness(0.8) drop-shadow(0 0 1px #000);
     border-width: 5px;
-    border-color: #9500ff;
     border-radius: 50%;
+    border-color: #9500ff;
 }
 
 .floor-button {
-    height: 200px;
-    width: 200px;
-    background: url(../images/yogabutton.png) no-repeat center center;
+    background: url(../images/yogabutton-purple.png) no-repeat center center;
     background-size: contain;
-    filter: brightness(0);
+    background-color: #d6adf7;
     border: solid;
+    filter: brightness(0.8) drop-shadow(0 0 1px #000);
     border-width: 5px;
-    border-color: #9500ff;
     border-radius: 50%;
+    border-color: #9500ff;
 }
 
 /* footer styling */
@@ -195,9 +196,9 @@ footer {
     color: #fafafa;
 }
 
-.social-networks > a:hover {
+.social-networks a:hover i {
     color: #9500ff;
-    font-size: 110%;
+    filter: drop-shadow(0 0 5px #e7d0fa)
 }
 
 /* why-conditioning page specific formatting */
