@@ -326,12 +326,12 @@ footer {
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera (from W3)*/
-.example::-webkit-scrollbar {
+.no-show-scroll::-webkit-scrollbar {
     display: none;
   }
   
   /* Hide scrollbar for IE, Edge and Firefox (from W3)*/
-  .example {
+  .no-show-scroll {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
@@ -341,11 +341,11 @@ footer {
     color: #9500ff;
 }
 
-##page-title a:hover {
+#page-title a:hover {
     color: #d6adf7;
 }
 
-##page-title a:visited {
+#page-title a:visited {
     color: #9500ff;
 }
 
