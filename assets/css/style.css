@@ -341,12 +341,12 @@ footer {
     color: #9500ff;
 }
 
-#page-title a:hover {
-    color: #d6adf7;
-}
-
 #page-title a:visited {
     color: #9500ff;
+} 
+
+#page-title a:hover {
+    color: #d6adf7;
 }
 
 .scrollbox div {
