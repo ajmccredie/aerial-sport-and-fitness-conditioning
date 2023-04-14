@@ -310,6 +310,7 @@ footer {
     position: absolute;
 }
 
+/* video page specific formatting */
 /* creating space for the video reels */
 #video-box-wrapper {
     height: 550px;
@@ -334,6 +335,19 @@ footer {
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
   }
+
+#page-title a:link {
+    text-decoration: none;
+    color: #9500ff;
+}
+
+##page-title a:hover {
+    color: #d6adf7;
+}
+
+##page-title a:visited {
+    color: #9500ff;
+}
 
 .scrollbox div {
     width: 250px;
