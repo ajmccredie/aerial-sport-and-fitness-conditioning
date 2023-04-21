@@ -129,6 +129,21 @@ nav li {
     }
 }
 
+#hero-box {
+    font-size: 160%;
+    font-family: inherit;
+    text-align: right;
+    width: 250px;
+    height: 200px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: rgb(231, 208, 250, 0.7);
+    top: 30px;
+    left: 120px;
+    position: absolute;
+}
+
 /* styling for the visual image buttons */
 #visual-nav {
     width: 100%;
