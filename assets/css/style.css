@@ -454,7 +454,7 @@ footer {
     width: 90vw;
     height: 250px;
     padding: 50px;
-    margin: 30px 50px 30px 50px;
+    margin: 30px 50px 100px 50px;
     display: flex;
     justify-content: space-evenly;
 }
@@ -576,6 +576,11 @@ footer {
 /* media queries */
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
+    .nav-box {
+        height: 320px;
+        overflow: hidden;
+    }
+
     #text-nav {
         width: 100%
     }
