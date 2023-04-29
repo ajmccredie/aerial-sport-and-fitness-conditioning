@@ -538,17 +538,19 @@ footer {
 
 #about-container-2 {
     width: 95vw;
-    height: 350px;
+    height: 450px;
     padding: 30px;
     margin: 30px 50px 30px 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #about1-box-first {
-    font-size: 130%;
+    font-size: 120%;
     font-family: inherit;
-    width: 300px;
+    width: 410px;
     height: 300px;
     padding-top: 10px;
     padding-left: 10px;
@@ -556,9 +558,9 @@ footer {
 }
 
 #about1-box-second {
-    font-size: 130%;
+    font-size: 120%;
     font-family: inherit;
-    width: 300px;
+    width: 310px;
     height: 300px;
     padding-top: 10px;
     padding-left: 10px;
@@ -566,9 +568,9 @@ footer {
 }
 
 #about1-box-third {
-    font-size: 130%;
+    font-size: 120%;
     font-family: inherit;
-    width: 300px;
+    width: 310px;
     height: 300px;
     padding-top: 10px;
     padding-left: 10px;
