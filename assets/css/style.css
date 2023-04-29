@@ -153,6 +153,7 @@ nav li {
     clear: both;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #visual-nav div {
@@ -792,12 +793,8 @@ footer {
     }
 
     #visual-nav {
-        clear: both;
-        display: flex;
-        flex-direction: column;
         margin-top: 0;
         padding: 20px;
-        align-items: center;
     }
     
     #visual-nav div {
