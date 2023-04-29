@@ -495,15 +495,17 @@ footer {
 /* about-us boxes */
 #about-container {
     width: 95vw;
-    height: 350px;
+    height: 450px;
     padding: 30px;
     margin: 10px 50px 30px 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 #about-box-first {
-    font-size: 130%;
+    font-size: 120%;
     font-family: inherit;
     width: 300px;
     height: 300px;
@@ -513,12 +515,12 @@ footer {
 }
 
 #about-box-second {
-    font-size: 130%;
+    font-size: 120%;
     font-family: inherit;
-    width: 300px;
+    text-align: justify;
+    width: 410px;
     height: 300px;
-    padding-top: 10px;
-    padding-left: 10px;
+    padding: 10px;
     background-color: rgb(231, 208, 250, 0.7);
 }
 
