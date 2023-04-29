@@ -279,7 +279,7 @@ footer {
     width: 100%;
     height: 775px;
     background: url(../images/hoop-splits-photo.jpg) no-repeat center center;
-    filter: grayscale(0.85);
+    filter: grayscale(0.85) brightness(0.5);
     object-fit: cover;
     background-size: cover;
     object-position: center;
@@ -295,7 +295,7 @@ footer {
     height: 200px;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: rgb(231, 208, 250, 0.7) ;
+    background-color: rgb(231, 208, 250, 0.8) ;
     top: 30px;
     left: 150px;
     position: absolute;
@@ -308,7 +308,7 @@ footer {
     height: 200px;
     padding-top: 0px;
     padding-left: 10px;
-    background-color: rgb(231, 208, 250, 0.7) ;
+    background-color: rgb(231, 208, 250, 0.8) ;
     top: 30px;
     right: 150px;
     position: absolute;
@@ -321,7 +321,7 @@ footer {
     height: 200px;
     padding-top: 10px;
     padding-left: 10px;
-    background-color: rgb(231, 208, 250, 0.7) ;
+    background-color: rgb(231, 208, 250, 0.8) ;
     bottom: 30px;
     left: 300px;
     position: absolute;
@@ -594,6 +594,7 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     .nav-box {
+        margin-top: -30px;
         height: 320px;
         overflow: hidden;
     }
@@ -669,7 +670,7 @@ footer {
         width: 100%;
         height: 575px;
         background: url(../images/hoop-splits-photo.jpg) no-repeat center center;
-        filter: grayscale(0.85);
+        filter: grayscale(0.85) brightness(0.5);
         object-fit: cover;
         background-size: cover;
         object-position: center;
@@ -680,41 +681,36 @@ footer {
 
     #inspire-box-first {
         font-size: 100%;
-        font-family: inherit;
+        font-weight: bold;
         width: 250px;
         height: 150px;
         padding-top: 10px;
         padding-left: 5px;
-        background-color: rgb(231, 208, 250, 0.7) ;
         top: 30px;
         left: 120px;
-        position: absolute;
     }
 
     #inspire-box-second {
         font-size: 100%;
-        font-family: inherit;
+        font-weight: bold;
         width: 250px;
         height: 180px;
         padding-top: 10px;
         padding-left: 5px;
-        background-color: rgb(231, 208, 250, 0.7) ;
         top: 30px;
         right: 150px;
-        position: absolute;
     }
 
     #inspire-box-third {
         font-size: 100%;
-        font-family: inherit;
+        font-weight: bold;
         width: 250px;
         height: 150px;
         padding-top: 10px;
         padding-left: 5px;
-        background-color: rgb(231, 208, 250, 0.7) ;
+        background-color: rgb(231, 208, 250, 0.8) ;
         bottom: 30px;
         left: 300px;
-        position: absolute;
     }
 
 /* scale down the visual nav buttons */    
@@ -731,7 +727,7 @@ footer {
     #about-container {
         width: 97vw;
         height: auto;
-        padding: 30px;
+        padding: 0;
         margin: 10px;
         display: flex;
         justify-content: space-evenly;
@@ -740,7 +736,8 @@ footer {
     }
 
     #about-box-second {
-        height: 400px;
+        height: auto;
+        padding-bottom: 10px;
         width: 310px;
         text-align: left;
     }
@@ -748,7 +745,7 @@ footer {
     #about-container-2 {
         width: 97vw;
         height: auto;
-        padding: 30px;
+        padding: 0;
         margin: 10px;
         display: flex;
         justify-content: space-evenly;
@@ -758,7 +755,8 @@ footer {
 
     #about1-box-first {
         width: 310px;
-        height: 400px;
+        height: auto;
+        padding-bottom: 5px;
     }
 }
   
@@ -778,17 +776,17 @@ footer {
     }
 
     #hero-box {
-        font-size: 120%;
+        font-size: 110%;
         font-family: inherit;
         text-align: right;
-        width: 200px;
-        height: 150px;
+        width: 170px;
+        height: 130px;
         padding-top: 5px;
         padding-left: 10px;
         padding-right: 15px;
         background-color: rgb(231, 208, 250, 0.7);
-        top: 30px;
-        left: 40px;
+        top: 100px;
+        left: 20px;
         position: absolute;
     }
 
@@ -810,10 +808,43 @@ footer {
         filter: drop-shadow(0 0 2px #000);
         margin-top: 0;
     }
+
+    /* video instruction boxes */
+    .instruction-container {
+        width: 95vw;
+        height: auto;
+        padding: 50px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .instruct-box-first {
+        font-size: 120%;
+        width: 310px;
+        padding: 10px;
+    }
+    
+    .instruct-box-second {
+        font-size: 120%;
+        width: 310px;
+        padding: 10px;
+    }
+    
+    .instruct-box-third {
+        font-size: 120%;
+        width: 310px;
+        padding: 10px;
+    }
  }
  
  /* for small screens 800px and down */
  @media screen and (max-width: 800px) {
+    #logo h1 {
+        font-size: 2.1rem;
+    }
+
     #page-title {
         font-size: 1.6rem;
         margin: 5px;
@@ -929,4 +960,35 @@ footer {
         border: 3px solid #d6adf7;
         text-align: center;
     }
+
+    .pole-video {
+        filter: grayscale(0.85) brightness(0.95) blur(0);
+    }
+    
+    .hoop-video {
+        filter: grayscale(0.85) brightness(0.95) blur(0);
+    }
+    
+    .silks-video {
+        filter: grayscale(0.85) brightness(0.95) blur(0);
+    }
+    
+    .floor-video {
+        filter: grayscale(0.85) brightness(0.95) blur(0);
+    }
+
+    #about-box-first {
+        height: auto;
+        padding-bottom: 15px;
+    }  
+    
+    #about1-box-second {
+        height: auto;
+        padding-bottom: 15px;
+    } 
+
+    #about1-box-third {
+        height: auto;
+        padding-bottom: 15px;
+    } 
 }
