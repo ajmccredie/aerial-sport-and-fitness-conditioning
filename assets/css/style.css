@@ -627,13 +627,22 @@ footer {
         animation-duration: 10s;
         animation-fill-mode: forwards;
     }
+
+    #visual-nav {
+        margin: 50px auto 0;
+    }
+    
+    #visual-nav div {
+        width: 210px; 
+        height: 210px;
+    }
         
     /* inspiring image scale down*/
     #inspiring-outer {
         height: 475px;
         width: 100%;
         margin-bottom: 50px;
-        margin-top: 50px;
+        margin-top: 10px;
         overflow: hidden;
         position: relative;
         background-color: rgb(149, 153, 153);
@@ -661,7 +670,7 @@ footer {
         padding-left: 5px;
         background-color: rgb(231, 208, 250, 0.7) ;
         top: 30px;
-        left: 150px;
+        left: 120px;
         position: absolute;
     }
 
@@ -669,7 +678,7 @@ footer {
         font-size: 100%;
         font-family: inherit;
         width: 250px;
-        height: 150px;
+        height: 180px;
         padding-top: 10px;
         padding-left: 5px;
         background-color: rgb(231, 208, 250, 0.7) ;
@@ -716,6 +725,44 @@ footer {
         float: left;
         font-size: 90%;
     }
+
+    #hero-box {
+        font-size: 120%;
+        font-family: inherit;
+        text-align: right;
+        width: 200px;
+        height: 150px;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 15px;
+        background-color: rgb(231, 208, 250, 0.7);
+        top: 30px;
+        left: 40px;
+        position: absolute;
+    }
+
+    #visual-nav {
+        clear: both;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        padding: 20px;
+        align-items: center;
+    }
+    
+    #visual-nav div {
+        margin: 10px 20px; 
+        width: 250px; 
+        height: 250px;
+        display: inline;
+        float: left; 
+        padding: 10%;
+    }
+
+    #visual-nav a:hover div {
+        filter: drop-shadow(0 0 2px #000);
+        margin-top: 0;
+    }
  }
  
  /* for small screens 800px and down */
@@ -757,8 +804,8 @@ footer {
     #inspiring-outer {
         height: 475px;
         width: 100%;
-        margin-bottom: 50px;
-        margin-top: 50px;
+        margin-bottom: 20px;
+        margin-top: 20px;
         overflow: hidden;
         position: relative;
         background-color: rgb(149, 153, 153);
@@ -794,8 +841,8 @@ footer {
         font-size: 100%;
         font-family: inherit;
         width: 250px;
-        height: 150px;
-        padding-top: 5px;
+        height: 160px;
+        padding-top: 1px;
         padding-left: 5px;
         background-color: rgb(231, 208, 250, 0.7) ;
         top: 162px;
@@ -807,8 +854,8 @@ footer {
         font-size: 100%;
         font-family: inherit;
         width: 250px;
-        height: 150px;
-        padding-top: 5px;
+        height: 140px;
+        padding-top: 1px;
         padding-left: 5px;
         background-color: rgb(231, 208, 250, 0.7) ;
         bottom: 10px;
@@ -821,10 +868,18 @@ footer {
         margin: 10px 10px; 
         width: 250px; 
         height: 250px;
-        display: flex;
-        flex-direction: column;
-     /*   float: left; */
-        padding: 10%;
-        align-items: center;
+    }
+
+    .scrollbox div {
+        font-size: 80%;
+        width: 180px;
+        height: 180px;
+        padding: 30px;
+        margin: 30px;
+        display: inline-block;
+        flex: 0 0 auto;
+        background-color: #424242;
+        border: 3px solid #d6adf7;
+        text-align: center;
     }
 }
