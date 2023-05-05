@@ -450,6 +450,13 @@ footer {
     }
 }
 
+/* video player box */
+.video-box {
+    width : 100vw;
+    display : flex;
+    justify-content: center; 
+}
+
 /* video instruction boxes */
 .instruction-container {
     width: 90vw;
